@@ -1,0 +1,13 @@
+CREATE TABLE `userdata` (
+  `name` varchar(45) DEFAULT NULL,
+  `email` varchar(45) NOT NULL,
+  `nid` varchar(45) DEFAULT NULL,
+  `birthdate` varchar(45) DEFAULT NULL,
+  `bloodgroup` varchar(45) DEFAULT NULL,
+  `phone` varchar(45) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `usertype` varchar(45) DEFAULT NULL,
+  `gender` varchar(45) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
